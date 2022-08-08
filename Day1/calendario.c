@@ -49,6 +49,7 @@ int main()
         case 12: printf("DICIEMBRE\n"); break;
     }
 
+	// Verificar el caso de año bisiesto para febrero
 	if ((mes == 2) && (anio % 4 == 0) && ((anio % 100 != 0) || (anio % 400 == 0))) {
 		dias_mes = 29;
 	}
